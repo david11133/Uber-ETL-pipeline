@@ -1,0 +1,9 @@
+pandas
+os
+io
+sqlalchemy
+requests
+psycopg2
+mage_ai.data_preparation.repo_manager
+mage_ai.io.config
+mage
