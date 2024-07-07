@@ -2,4 +2,4 @@ pandas
 sqlalchemy
 requests
 psycopg2
-mage
+mage-ai
