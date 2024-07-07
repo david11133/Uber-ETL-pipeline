@@ -28,6 +28,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run ETL script
+      - name: Run Extract script
         run: |
-          python your_etl_script.py
+          python mage-files/extract.py
+
+      - name: Run Transform script
+        run: |
+          python mage-files/transform.py
+
+      - name: Run Load script
+        run: |
+          python mage-files/load.py
