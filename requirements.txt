@@ -1,6 +1,4 @@
 pandas
-os
-io
 sqlalchemy
 requests
 psycopg2
