@@ -28,9 +28,6 @@ Uber generates vast amounts of data from various sources including ride requests
 ## Dashboard Access
 You can access the dashboard through the following link: [Looker Studio Dashboard](https://lookerstudio.google.com/reporting/b7ed88eb-960f-4d63-a7b5-7aec3a9ebb5d)
 
-### Contribute to this Open Source Project
-You can contribute to this open-source project on GitHub: [mage-ai/mage-ai](https://github.com/mage-ai/mage-ai)
-
 ## Dataset Used
 
 ### TLC Trip Record Data
