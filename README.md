@@ -2,13 +2,31 @@
 
 ## Introduction
 
-The objective of this project is to conduct data analytics on Uber data utilizing a variety of tools and technologies, including Python, Mage Data Pipeline Tool, and Looker Studio.
+This repository contains code and documentation for building a robust data engineering pipeline to analyze Uber data. The pipeline leverages various tools and technologies for data storage, processing, and visualization, including Google Cloud Platform (GCP) services, Mage-AI, BigQuery, and Looker.
+
+## Overview
+Uber generates vast amounts of data from various sources including ride requests, driver activities, and user interactions. Analyzing this data provides valuable insights for optimizing operations, improving user experience, and making data-driven decisions.
+
+## Pipeline Objectives
+- Ingest Raw Data: Load raw Uber data from CSV files.
+- Data Modeling: Create a data model schema tailored to business needs.
+- ETL Process: Extract, transform, and load data into PostgreSQL using Mage-AI.
+- Data Storage: Store transformed data in Google Cloud Storage or Snowflake.
+- Data Analysis: Apply SQL queries for analysis (see analytics_query.sql).
+- Visualization: Create meaningful visualizations and dashboards using Looker Studio or Power BI.
+- Insights: Enable stakeholders to explore and gain insights from the data.
 
 
-### Technology Used
-- **Programming Language**: Python
-- **Looker Studio**
-- **Modern Data Pipeline Tool**: [Mage Data Pipeline Tool](https://www.mage.ai/)
+## Technologies Used
+- Programming Language: Python
+- Libraries: Pandas, Requests, OS
+- Database: PostgreSQL
+- Data Warehouse: Snowflake or BigQuery
+- Visualization Tools: Looker Studio or Power BI
+- Data Pipeline Tool: Mage Data Pipeline Tool
+
+## Dashboard Access
+You can access the dashboard through the following link: [Looker Studio Dashboard](https://lookerstudio.google.com/reporting/b7ed88eb-960f-4d63-a7b5-7aec3a9ebb5d)
 
 ### Contribute to this Open Source Project
 You can contribute to this open-source project on GitHub: [mage-ai/mage-ai](https://github.com/mage-ai/mage-ai)
