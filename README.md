@@ -1,41 +1,82 @@
-# Uber Data Analytics
+# Uber Data Engineering Pipeline
 
-## Introduction
+This repository contains code and documentation for building a robust data engineering pipeline to analyze Uber data. The pipeline is designed using Google Cloud Platform (GCP) services including Mage-AI, Snowflake, and Looker for data storage, processing, and visualization.
 
-This repository contains code and documentation for building a robust data engineering pipeline to analyze Uber data. The pipeline leverages various tools and technologies for data storage, processing, and visualization, including Google Cloud Platform (GCP) services, Mage-AI, BigQuery, and Looker.
+![Pipeline Overview](path/to/your/pipeline_overview_image.png)  <!-- Replace with the actual path to your image -->
 
 ## Overview
-Uber generates vast amounts of data from various sources including ride requests, driver activities, and user interactions. Analyzing this data provides valuable insights for optimizing operations, improving user experience, and making data-driven decisions.
 
-## Pipeline Objectives
-- Ingest Raw Data: Load raw Uber data from CSV files.
-- Data Modeling: Create a data model schema tailored to business needs.
-- ETL Process: Extract, transform, and load data into PostgreSQL using Mage-AI.
-- Data Storage: Store transformed data in Google Cloud Storage or Snowflake.
-- Data Analysis: Apply SQL queries for analysis (see analytics_query.sql).
-- Visualization: Create meaningful visualizations and dashboards using Looker Studio or Power BI.
-- Insights: Enable stakeholders to explore and gain insights from the data.
+Uber generates vast amounts of data from various sources, including ride requests, driver activities, and user interactions. Analyzing this data can provide valuable insights for optimizing operations, improving user experience, and making data-driven decisions.
 
+The data engineering pipeline outlined in this repository aims to:
 
-## Technologies Used
-- Programming Language: Python
-- Libraries: Pandas, Requests, OS
-- Database: PostgreSQL
-- Data Warehouse: Snowflake or BigQuery
-- Visualization Tools: Looker Studio or Power BI
-- Data Pipeline Tool: Mage Data Pipeline Tool
+- **Ingest Raw Data**: Load raw Uber data from a CSV file.
+- **Clean and Handle Data**: Process and clean the data to prepare it for analysis.
+- **Create Data Model Schema**: Develop a data model schema tailored to business needs.
+- **ETL Pipeline**: Extract, Transform, and Load (ETL) data into PostgreSQL using Mage-AI.
+- **Store Transformed Data**: Load the transformed data into Snowflake.
+- **Data Analysis**: Apply SQL queries to analyze the data.
+- **Visualization and Dashboards**: Create meaningful visualizations and dashboards using Looker.
+- **Stakeholder Insights**: Enable stakeholders to explore and gain insights from the data.
 
-## Dashboard Access
-You can access the dashboard through the following link: [Looker Studio Dashboard](https://lookerstudio.google.com/reporting/b7ed88eb-960f-4d63-a7b5-7aec3a9ebb5d)
+## Technology Used
 
-## Dataset Used
+- **Programming Language**: Python
+- **Libraries**: Pandas, Requests, OS
+- **Database**: PostgreSQL
+- **Data Warehouse**: Snowflake
+- **Visualization**: Looker Studio
+- **Modern Data Pipeline Tool**: Mage Data Pipeline Tool
 
-### TLC Trip Record Data
-The dataset includes yellow and green taxi trip records containing fields such as pick-up and drop-off dates/times, locations, distances, fares, rate types, payment types, and driver-reported passenger counts.
+## Access the Dashboard
 
-- **Dataset Used in the Project Video**: [uber_data.csv](https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv)
+You can access the dashboard through the following link: [Uber Data Dashboard](https://lookerstudio.google.com/reporting/b7ed88eb-960f-4d63-a7b5-7aec3a9ebb5d)
 
-### More Information about the Dataset
-- **Website**: [NYC TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
-- **Data Dictionary**: [NYC TLC Trip Record Data Dictionary](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)
+## Getting Started
 
+### Prerequisites
+
+- Ensure you have the necessary permissions and accounts for GCP, Snowflake, and Looker.
+- Install the required Python libraries.
+
+### Installation
+
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/uber-data-engineering-pipeline.git
+    ```
+
+2. **Install Python Packages:**
+
+    ```bash
+    pip install pandas requests snowflake-connector-python mage-ai
+    ```
+
+3. **Configure Snowflake and Mage-AI:**
+
+    - Update connection details and configurations in the provided scripts.
+
+4. **Run the ETL Pipeline:**
+
+    - Use the Mage-AI tool to run the ETL pipeline and load data into PostgreSQL.
+
+5. **Load Data into Snowflake:**
+
+    - Execute the Python script to transfer transformed data to Snowflake.
+
+6. **Run SQL Queries:**
+
+    - Apply SQL queries to analyze data stored in Snowflake.
+
+7. **View Visualizations:**
+
+    - Access and explore the Looker dashboard using the provided link.
+
+## Contributing
+
+Feel free to fork the repository, make changes, and submit pull requests. If you have any issues or suggestions, please open an issue in the GitHub repository.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
