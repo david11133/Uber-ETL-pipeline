@@ -11,7 +11,7 @@ def export_data_to_postgres(data, **kwargs) -> None:
     Template for exporting data to a PostgreSQL database.
     """
     # Connect to the PostgreSQL database
-    conn = psycopg2.connect("host=127.0.0.1 dbname=uberDB user=postgres password=*******")
+    conn = psycopg2.connect("host=127.0.0.1 dbname=uberDB user=postgres password=**********")
 
     # Create a cursor object
     cur = conn.cursor()
