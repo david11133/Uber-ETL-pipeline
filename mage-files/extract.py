@@ -14,9 +14,11 @@ def load_data_from_csv(*args, **kwargs):
     Template for loading data from API
     """
 
-    uber_data = os.path.join("data","uber_data.csv")
+    data_dir = '..\\data\\raw'
+    file_name = 'uber_data.csv'
+    file_path = os.path.join(data_dir, file_name)
 
-    return pd.read_csv(uber_data)
+    return pd.read_csv(file_path)
 
 
 @test
