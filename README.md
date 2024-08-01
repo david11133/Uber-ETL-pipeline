@@ -2,7 +2,7 @@
 
 This repository contains code and documentation for building a robust data engineering pipeline to analyze Uber data. The pipeline is designed using Google Cloud Platform (GCP) services including Mage-AI, Snowflake, and Looker for data storage, processing, and visualization.
 
-![Pipeline Overview](path/to/your/pipeline_overview_image.png)  <!-- Replace with the actual path to your image -->
+<!-- ![Pipeline Overview](path/to/your/pipeline_overview_image.png)  <!-- Replace with the actual path to your image -->
 
 ## Overview
 
