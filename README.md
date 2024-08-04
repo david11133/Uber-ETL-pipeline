@@ -30,6 +30,10 @@ The data engineering pipeline outlined in this repository aims to:
 - **Visualization**: Looker Studio
 - **Modern Data Pipeline Tool**: Mage Data Pipeline Tool
 
+## Database Schema
+<br>
+<img src="schema/data_model.jpeg">
+
 ## Access the Dashboard
 
 <img src="Uber Dashboard.png">
