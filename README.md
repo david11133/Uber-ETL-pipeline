@@ -6,7 +6,7 @@ This repository contains code and documentation for building a robust data engin
 
 ## Overview
 <br>
-<img src="data architecture.jpg">
+<img src="data architecture.png">
 
 Uber generates vast amounts of data from various sources, including ride requests, driver activities, and user interactions. Analyzing this data can provide valuable insights for optimizing operations, improving user experience, and making data-driven decisions.
 
