@@ -32,7 +32,7 @@ The data engineering pipeline outlined in this repository aims to:
 
 ## Database Schema
 <br>
-<img src="schema/data_model.jpeg">
+<img src="schema//data_model.jpeg">
 
 ## Access the Dashboard
 
