@@ -32,6 +32,8 @@ The data engineering pipeline outlined in this repository aims to:
 
 ## Access the Dashboard
 
+<img src="Uber Dashboard.png">
+
 You can access the dashboard through the following link: [Uber Data Dashboard](https://lookerstudio.google.com/reporting/b7ed88eb-960f-4d63-a7b5-7aec3a9ebb5d)
 
 ## Getting Started
@@ -78,7 +80,3 @@ You can access the dashboard through the following link: [Uber Data Dashboard](h
 ## Contributing
 
 Feel free to fork the repository, make changes, and submit pull requests. If you have any issues or suggestions, please open an issue in the GitHub repository.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
