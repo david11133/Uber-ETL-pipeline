@@ -5,10 +5,24 @@
 The Uber Data Engineering Pipeline is designed to analyze Uber data by utilizing Google Cloud Platform (GCP) services including Mage-AI, Snowflake, and Looker. This pipeline covers the entire process from data ingestion to visualization, showcasing a full data engineering workflow.
 <!-- ![Pipeline Overview](path/to/your/pipeline_overview_image.png)  <!-- Replace with the actual path to your image -->
 
-![Data Architecture]("data architecture.png")
 <img src="data architecture.png">
 
-Uber generates vast amounts of data from various sources, including ride requests, driver activities, and user interactions. Analyzing this data can provide valuable insights for optimizing operations, improving user experience, and making data-driven decisions.
+Uber generates vast amounts of data from various sources such as ride requests, driver activities, and user interactions. Analyzing this data helps in optimizing operations, improving user experience, and making data-driven decisions.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Data Sources](#data-sources)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Pipeline Architecture](#pipeline-architecture)
+- [Data Schema](#data-schema)
+- [Visualizations](#visualizations)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
 
 The data engineering pipeline outlined in this repository aims to:
 
