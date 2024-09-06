@@ -1,5 +1,6 @@
 pandas
 sqlalchemy
+snowflake-connector-python
 requests
 psycopg2
 mage-ai
