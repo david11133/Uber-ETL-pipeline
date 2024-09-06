@@ -65,7 +65,7 @@ To set up and run this project locally, follow these steps:
 2. **Install Python Packages:**
 
     ```bash
-    pip install pandas requests snowflake-connector-python mage-ai
+    pip install requirements.txt
     ```
 
 3. **Configure Snowflake and Mage-AI:**
@@ -93,8 +93,10 @@ To set up and run this project locally, follow these steps:
 <br>
 <img src="Schema/data_model.jpeg">
 
+<!--
 - **PostgreSQL Schema:** [Describe the schema or link to schema files.]
 - **Snowflake Schema:** [Describe the schema or link to schema files.]
+-->
 
 ## Visualizations
 
